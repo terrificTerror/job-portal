@@ -94,3 +94,75 @@ a.nav-btn:hover::before {
     color: #2e6edf;
     background-color: white;
 }
+
+
+
+/* <Banner Section> */
+.container {
+    height: 250px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Gordita, sans-serif;
+    background-color: #f8f8f8;
+    /* max-width: 1272px; */
+    /* margin: 0 43px 0 43px; */
+    padding: 32px 32px 42px 32px;
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none solid rgb(33 33 33);
+}
+
+
+.jam{
+    color: crimson;
+    font-weight: 600;
+}
+
+.path-to-ext{
+ color:brown;
+ font-weight: 600;
+
+}
+
+.banner{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+height: 60px;
+width: 1208px;
+margin: 0 0 32px 0;
+    line-height: 60px;
+    box-sizing: border-box;
+   font-family: Gordita,sans-serif;
+   text-decoration: none solid rgb(33 33 33);
+   position: color #212121;
+ 
+}
+.part{
+    font-family: Gordita,sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    height: 20px;
+    width: 1208px;
+    margin: 0 0 32px 0;
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none solid rgb(33 33 33);
+}
+.Banner_logos{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Gordita,sans-serif;
+    box-sizing: border-box;
+    height: 47px;
+    width: 1208px;
+    display: flex;
+     justify-content: center; 
+    flex-direction: row;
+    
+     
+   gap: 3em; 
+}
+/* <Banner Section end> */
