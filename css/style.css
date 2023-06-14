@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Gordita, sans-serif;
 }
 
 ul {
@@ -99,16 +100,13 @@ a.nav-btn:hover::before {
 
 /* <Banner Section> */
 .container {
-    height: 250px;
+    height: 300px;
     width: 100%;
     font-size: 16px;
     line-height: 24px;
     font-family: Gordita, sans-serif;
     background-color: #f8f8f8;
-    /* max-width: 1272px; */
-    /* margin: 0 43px 0 43px; */
     padding: 32px 32px 42px 32px;
-    display: block;
     box-sizing: border-box;
     text-decoration: none solid rgb(33 33 33);
 }
@@ -129,9 +127,12 @@ a.nav-btn:hover::before {
     text-align: center;
     font-size: 32px;
     font-weight: 500;
-height: 60px;
-width: 1208px;
-margin: 0 0 32px 0;
+    height: 60px;
+    width: 1208px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
     line-height: 60px;
     box-sizing: border-box;
    font-family: Gordita,sans-serif;
@@ -146,7 +147,10 @@ margin: 0 0 32px 0;
     text-align: center;
     height: 20px;
     width: 1208px;
-    margin: 0 0 32px 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
     display: block;
     box-sizing: border-box;
     text-decoration: none solid rgb(33 33 33);
@@ -161,8 +165,72 @@ margin: 0 0 32px 0;
     display: flex;
      justify-content: center; 
     flex-direction: row;
-    
-     
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
    gap: 3em; 
 }
 /* <Banner Section end> */
+
+/* Achievement Section */
+
+.achievement {
+    margin: 20px;
+}
+
+.achievement-tagline {
+    font-size: 28px;
+    text-align: center;
+    margin: 36px;
+}
+.icon {
+    height: 50px;
+    width: 50px;
+    /* float: left; */
+}
+
+.achievement-para {
+    font-size: 20px;
+    line-height: 3.5em;
+}
+
+.achievement-para-line {
+    font-size: large;
+}
+
+.achievement-para-word {
+    margin-left: 5px;
+    line-height: 50px;
+}
+
+.icon-word {
+    display: flex;
+}
+
+.achievement-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.days, .hours, .percent {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.days {
+    color: #8cc94f;
+}
+
+.hours {
+    color: #7cb441;
+}
+
+.percent {
+    color: #5e9c76;
+}
+
+
+
+/* Achievement Section */
