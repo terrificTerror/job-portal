@@ -234,3 +234,68 @@ a.nav-btn:hover::before {
 
 
 /* Achievement Section */
+/* Achievement 2 */
+
+.container2{
+    /* background-color:#4770D0 ; */
+    height: 620px;
+    width: auto;
+   padding-top: 50px;
+
+}
+.heading{
+    
+     padding: 80px 0 0 75px; 
+    font-size: 48px; 
+    font-family: Gordita,sans-serif;
+    font-weight: 200;
+    line-height: 60px; 
+    margin-bottom: -60px;
+   
+    
+
+}
+.container2{
+    /* background-image: url(../images/World_map_\(blue_dots\).svg); */
+    /* background-color:#4770D0 ; */
+    opacity: 0.9;
+    background-size: auto 500px;
+    background-repeat: no-repeat;
+    background-position: right 60px;
+    color: aliceblue;
+    /* margin-top: 80px 0 80px 0; */
+     /* padding: 80px 0 0 75px; */
+     background-image:
+     linear-gradient(90deg,#e66465, #9198e575
+       ), url(../images/World_map_\(blue_dots\).svg);
+     
+
+}
+.lekha{
+      font-size: 30px;  
+    line-height: 45px; 
+    font-family: Gordita,sans-serif;
+    box-sizing: border-box;
+    /* height: 47px;
+    width: 1208px; */
+    display: flex;
+     justify-content: flex-start; 
+    flex-direction: row;
+    padding: 80px 0 0 75px;
+    font-weight: 200;
+     /* margin-top: 0.1px; */
+    gap: 1.5em;  
+    color: aliceblue;
+    margin-top: 30px;
+}
+.n1,.n2,.n3{
+    font-size: 70px;
+    font-family: Gordita,sans-serif;
+    font-weight: 500;
+    color: aliceblue;
+}
+.n4,.n5{
+    font-size: 70px;
+    font-weight: 500;
+    color:darkslategray;
+}
