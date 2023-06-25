@@ -401,3 +401,109 @@ a.nav-btn:hover::before {
 }
 
 /* Testimonial slider */
+/* <footer section> */
+.up{
+     
+    background-color: black;
+    color:#FFFFFF;
+    
+    justify-content: space-between; 
+    width: auto;
+    height: auto;
+    padding: 50px 70px;
+    font-family: Gordita, sans-serif;
+    display: flex;
+    margin-bottom: -90px;
+    
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+    cursor: pointer;
+    gap: 1em;
+     margin-bottom: 10px;
+     
+}
+  .name{
+    font-size: 32px;
+    text-align: left;
+    color:#FFFFFF;
+    cursor: pointer;
+    
+    
+    
+  }  
+  .upper{
+    display: flex;
+    justify-content: flex-end;
+    gap: 7em;
+    margin-bottom: 70px;
+    margin-top: 18px;
+    font-size: 17px;
+    line-height: 2em;
+   
+    
+   
+    
+  }
+  .last-title{
+   
+    text-align: center;
+    font-family: Gordita, sans-serif;
+    font-size: 20px;
+  }
+  .low{
+    background-color: black;
+   
+    color:#FFFFFF;
+    padding-bottom: 20px;
+  }
+  .last-part{
+    text-align: center;
+    font-family: Gordita, sans-serif;
+    font-size: 13px;
+    line-height: 3em;
+  }
+  .last-line{
+    display: flex;
+    justify-content: end;
+    gap: 2em;
+    color: #FFFFFF;
+    font-family: Gordita, sans-serif;
+    font-size: 14px;
+    padding: 0px 30px;
+    
+
+  }
+  .my-link,.lastlink{
+    color: #9FC1C1;
+    text-decoration: none;
+    
+  }
+  .headlink{
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  a.my-link,a.lastlink{
+    position: relative;
+  }
+  a.my-link::before,a.lastlink::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #9FC1C1;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+  a.my-link:hover::before,a.lastlink:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+  /* <footer ends> */
