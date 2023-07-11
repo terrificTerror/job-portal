@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/login.css">
+  <title>Company X Registration</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 left-section text-center d-flex flex-column align-items-center justify-content-center" >
+        <!-- Content for the left section (list of companies) goes here -->
+        <h5 class="mt-5">BreadHunter</h5>
+        <p class="mt-5 text-wrap breadhunter-text fw-bold">Work full-time with top Global companies</p>
+        <p class="mt-5 lead breadhunter-text"><small>We are backed by engineering executives and investors of</small></p>
+
+        <div class="investors">
+            <div class="logo-row my-3">
+                <img class="mx-2" src="https://developers.turing.com/static/media/Google.f148eda8.svg" alt="Google">
+                <img class="mx-2" src="https://developers.turing.com/static/media/Facebook.afb53a87.svg" alt="Facebook">
+                <img class="mx-2" src="https://developers.turing.com/static/media/Twitter.0c90bb94.svg" alt="Twitter">
+            </div>
+
+            <div class="logo-row my-5">
+                <img class="mx-2" src="https://developers.turing.com/static/media/Microsoft.19fb216c.svg" alt="Microsoft">
+                <img class="mx-2" src="https://developers.turing.com/static/media/SnapInc.c7ce8880.svg" alt="Snap Inc.">
+            </div>
+
+            <div class="logo-row mt-5 mb-3">
+              <img class="mx-2" src="https://developers.turing.com/static/media/Tesla.a9e17d63.svg" alt="Tesla">
+              <img class="mx-2" src="https://developers.turing.com/static/media/Spacex.4c65c4b3.svg" alt="SpaceX">
+            </div>
+
+        </div>
+
+        <div class="as-seen-on">
+          <p class="lead breadhunter-text"><small>As seen on</small></p>
+
+          <div class="logo-row mt-1 mb-5">
+            <img class="mx-2" src="https://developers.turing.com/static/media/TC.a608143e.svg" alt="TechCrunch">
+            <img class="mx-2" src="https://developers.turing.com/static/media/Information.3c2c344e.svg" alt="The Information">
+          </div>
+
+          <div class="logo-row my-5">
+            <img class="mx-2" src="https://developers.turing.com/static/media/Entrepreneur.ae9db6cd.svg" alt="Entrepreneur">
+            <img class="mx-2" src="https://developers.turing.com/static/media/Forbes.82aadadc.svg" alt="Forbes">
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-md registration-section d-flex flex-column justify-content-center align-items-center">
+        <!-- Content for the registration section goes here -->
+        <div class="text-center">
+          <h2>Sign in</h2>
+          <p class="lead">or <a class="text-decoration-none sign-in" href="registration.html">create an account</a></p>
+        </div>
+        <form>
+          <!-- Form fields -->
+          <label for="email" class="form-label">Email address</label>
+          <div class="mb-4">
+            <input type="email" class="form-control" id="email" placeholder="name@example.com" size="50" required>
+          </div>
+
+          <label for="password" class="form-label">Password</label>
+          <div class="mb-4">
+            <input type="password" class="form-control" id="password" placeholder="Password" required>
+          </div>
+
+          <p class="forgot-password"><a class="text-decoration-none" href="#">Forgot Password?</a></p>
+
+          <button type="submit"
+            class="btn btn-primary btn-block register-btn mt-2">Sign in</button>
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
