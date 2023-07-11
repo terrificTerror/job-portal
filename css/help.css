@@ -1,0 +1,13 @@
+.bg-image {
+    background-image: url('../images/help.jpg');
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px; 
+  }
+  .search-container{
+    width: 100%;
+  }
+  .help{
+    text-shadow: white 0px 0px 10px;
+  }
